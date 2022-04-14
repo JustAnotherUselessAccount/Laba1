@@ -33,7 +33,7 @@ TEST(normal_roots_tests, zero_koef1) {
     double x1, x2;
     int ret = get_roots(0, 2, -2, &x1, &x2);
     EXPECT_EQ(ret, 0);
-    EXPECT_EQ(x1, 2);
+    EXPECT_EQ(x1, 1);
 }
 
 TEST(normal_roots_tests, zero_koef2) {

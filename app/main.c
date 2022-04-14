@@ -1,9 +1,16 @@
 #include <stdio.h>
 
-#include "myfunc.h"
+#include "square_root.h"
 
-int main()
-{
+int main() {
     printf("Hello World!\n");
-    return myfunc(2);
+    double a = 0, b = 0, c = 0;
+    scanf_s("%g%g%g", a, b, c);
+    double x1 = 0, x2 = 0;
+    int res = get_roots(a, b, c, &x1, &x2);
+    if (res) {
+        printf("Ошибка - корней не существует");
+    } else {
+        printf("Полученные корни: %g и %g", x1, x2);
+    }
 }

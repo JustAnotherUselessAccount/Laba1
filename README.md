@@ -4,10 +4,3 @@
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=seekerk_ctest&metric=bugs)](https://sonarcloud.io/summary/new_code?id=seekerk_ctest)
 [![Code smells](https://sonarcloud.io/api/project_badges/measure?project=seekerk_ctest&metric=code_smells)](https://sonarcloud.io/dashboard?id=seekerk_ctest)
 
-# Пример работы связки cmake + Google Test (gtest)
-
-Для подгрузки gtest необходимо выполнить команды:
-```
-git submodule init
-git submodule update
-```

@@ -19,7 +19,7 @@ add_definitions(-DINPUTDIR="${PROJECT_SOURCE_DIR}/input")
 
 add_executable(${PROJECT_NAME} main.cpp ${TESTS} ${EXT_HEADERS} ${EXT_SOURCES})
 
-target_link_libraries(${PROJECT_NAME} gtest gtest_main gmock )#pthread)
+target_link_libraries(${PROJECT_NAME} gtest gtest_main gmock m )#pthread)
 
 # оценка покрытия кода тестами
 # target_link_libraries(${PROJECT_NAME} gcov)
